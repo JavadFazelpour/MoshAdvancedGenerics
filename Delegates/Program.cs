@@ -4,6 +4,21 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var processor = new PhotoProcessor();
+        var filters = new PhotoFilters();
+
+        PhotoProcessor.PhotoFilterHandler filterHandler = filters.ApplyBrightness;
+        filterHandler += filters.ApplyContrast;
+        filterHandler += RemoveRedEye;
+        filterHandler += RotatePhoto;
+        processor.Process("MyPhoto.jpg", filterHandler);
+    }
+    static void RemoveRedEye(Photo photo)
+    {
+        Console.WriteLine("Red eye remove.");
+    }
+    static void RotatePhoto(Photo photo)
+    {
+        Console.WriteLine("Rotates photo.");
     }
 }
