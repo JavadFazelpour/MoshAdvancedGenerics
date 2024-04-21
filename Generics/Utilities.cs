@@ -1,5 +1,6 @@
-﻿namespace Generics;
+﻿using System.Security.Principal;
 
+namespace Generics;
 public class Utilities<T> where T : IComparable
 {
     public int Max(int a, int b)
