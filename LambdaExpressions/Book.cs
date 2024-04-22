@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace LambdaExpressions;
-internal class Book
+public class Book
 {
     public string Title { get; set; }
     public float Price { get; set; }
