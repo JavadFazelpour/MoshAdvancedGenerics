@@ -13,7 +13,9 @@ Stars given you'll. You'll fill in. Land image.
 A seasons, under seas in Gathering kind and. Hath upon deep can't won't.";
 
         var shortenedPost = post.Shorten(5);
-        
         Console.WriteLine(shortenedPost);
+
+        IEnumerable<int> numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8 };
+        Console.WriteLine( numbers.Max());
     }
 }
