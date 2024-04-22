@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQTutorial", "LINQTutoria
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableTypes", "NullableTypes\NullableTypes.csproj", "{C9C57A4B-9E89-4A48-BF0A-92CD4ACC3309}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamics", "Dynamics\Dynamics.csproj", "{55D24E99-2454-42A8-9ED3-17CD51A32970}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C9C57A4B-9E89-4A48-BF0A-92CD4ACC3309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9C57A4B-9E89-4A48-BF0A-92CD4ACC3309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9C57A4B-9E89-4A48-BF0A-92CD4ACC3309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D24E99-2454-42A8-9ED3-17CD51A32970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D24E99-2454-42A8-9ED3-17CD51A32970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D24E99-2454-42A8-9ED3-17CD51A32970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D24E99-2454-42A8-9ED3-17CD51A32970}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
