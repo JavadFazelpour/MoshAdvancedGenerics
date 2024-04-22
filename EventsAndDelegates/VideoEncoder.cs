@@ -10,8 +10,9 @@ public class VideoEncoder
     public delegate void VideoEncodedEventHandler(object sender, VideoEventArgs eventArgs);
 
     // 2. Event based on delegate
-    public event VideoEncodedEventHandler VideoEncoded;
-
+    //public event VideoEncodedEventHandler VideoEncoded;
+    // Easier way
+    public EventHandler<VideoEventArgs> VideoEncoded;
     public void Encode(Video video)
     {
         Console.WriteLine("Encoding video...");
